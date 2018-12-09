@@ -1,9 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-public class Main extends Frame implements ActionListener{
+public class ip extends Frame implements ActionListener{
     JTextField tf; JLabel l; JButton b;
-    Main(){
+    ip(){
         tf=new JTextField();
         tf.setBounds(50,50, 150,20);
         l=new JLabel();
@@ -24,5 +24,5 @@ public class Main extends Frame implements ActionListener{
         }catch(Exception ex){System.out.println(ex);}
     }
     public static void main(String[] args) {
-        new Main();
+        new ip();
     } }
